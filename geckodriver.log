@@ -1,5 +1,6 @@
 1621429167032	geckodriver	INFO	Listening on 127.0.0.1:64067
 1621429170081	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofilemeGOlC"
+<<<<<<< HEAD
 1621429170719	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1621429174310	Marionette	INFO	Listening on port 64083
@@ -402,3 +403,407 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
 [Parent 7408, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+=======
+1621429170719	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621429174310	Marionette	INFO	Listening on port 64083
+1621429174390	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621429177480	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\ksrik\AppData\Local\Temp\rust_mozprofilemeGOlC\bookmarkbackups\bookmarks-2021-05-19_11_1tMEvttWlUnRhMCFP4jHhA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+"
+1621429242794	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621429246257	Marionette	INFO	Listening on port 64349
+1621429246426	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1622059622913	geckodriver	INFO	Listening on 127.0.0.1:58197
+1622059626158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofilemq1dX0"
+1622059627310	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622059631472	Marionette	INFO	Listening on port 58209
+1622059631510	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js, line 1: Script terminated by timeout at:
+result@https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js:1:30421
+n@https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js:4:5862
+o@https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js:1:2522
+_a.each/<@https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js:3:14537
+Y@https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js:1:4463
+_a.each@https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js:3:14512
+_a.attr@https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js:3:11364
+@https://tarunlalwani.com//js/App.js:114:12
+Lt@https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js:1:11705
+qt@https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js:1:11550
+
+JavaScript error: https://cdn.snigelweb.com/pub/w3schools.com/20200508/snhb-w3schools.com.min.js?202105201225, line 129: TypeError: d.loadGlobalSettings is undefined
+JavaScript error: https://www.guru99.com/Customization/sticky/sticky.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://www.guru99.com/Customization/footeradhison.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.guru99.com/Customization/sticky/jquery.stickyPanel.min.js line 12 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://www.guru99.com/media/plg_jchoptimize/cache/js/38fc52749348de396d64e8b4f9ca882f.js, line 1: ReferenceError: jQuery is not defined
+JavaScript warning: https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021052001.js, line 6: Script terminated by timeout at:
+sB/<@https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021052001.js:6:182593
+
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6vmH6gRf2UqLiW2PAyrCu1HDtbEhJxjO0f7Ukk3E6CA.js line 1 > eval, line 5244: Script terminated by timeout at:
+N@https://pagead2.googlesyndication.com/bg/6vmH6gRf2UqLiW2PAyrCu1HDtbEhJxjO0f7Ukk3E6CA.js line 1 > eval:5244:1240
+Nv@https://pagead2.googlesyndication.com/bg/6vmH6gRf2UqLiW2PAyrCu1HDtbEhJxjO0f7Ukk3E6CA.js line 1 > eval line 5244 > eval:1:44
+@https://pagead2.googlesyndication.com/bg/6vmH6gRf2UqLiW2PAyrCu1HDtbEhJxjO0f7Ukk3E6CA.js line 1 > eval line 5244 > eval:1:17
+e4@https://pagead2.googlesyndication.com/bg/6vmH6gRf2UqLiW2PAyrCu1HDtbEhJxjO0f7Ukk3E6CA.js line 1 > eval line 5244 > eval:1:179
+hr@https://pagead2.googlesyndication.com/bg/6vmH6gRf2UqLiW2PAyrCu1HDtbEhJxjO0f7Ukk3E6CA.js line 1 > eval line 5244 > eval:1:33
+K.prototype.B</<@https://pagead2.googlesyndication.com/bg/6vmH6gRf2UqLiW2PAyrCu1HDtbEhJxjO0f7Ukk3E6CA.js line 1 > eval:5244:12284
+Ar@https://pagead2.googlesyndication.com/bg/6vmH6gRf2UqLiW2PAyrCu1HDtbEhJxjO0f7Ukk3E6CA.js line 1 > eval:5244:2967
+r4@https://pagead2.googlesyndication.com/bg/6vmH6gRf2UqLiW2PAyrCu1HDtbEhJxjO0f7Ukk3E6CA.js line 1 > eval:5244:13449
+d@https://pagead2.googlesyndication.com/bg/6vmH6gRf2UqLiW2PAyrCu1HDtbEhJxjO0f7Ukk3E6CA.js line 1 > eval:5244:12885
+r4/<@https://pagead2.googlesyndication.com/bg/6vmH6gRf2UqLiW2PAyrCu1HDtbEhJxjO0f7Ukk3E6CA.js line 1 > eval:5244:13506
+g</<@https://pagead2.googlesyndication.com/bg/6vmH6gRf2UqLiW2PAyrCu1HDtbEhJxjO0f7Ukk3E6CA.js line 1 > eval:5244:8327
+
+JavaScript error: https://assets.twilio.com/public_assets/console-funnel/1.19.0/js/console-funnel.js, line 12: TypeError: o.payload is undefined
+JavaScript error: https://cdn.segment.com/analytics.js/v1/UMocpEAaXj4FxxLw9prnvmvuThNoaKol/analytics.min.js, line 6: TypeError: window.heap.push is not a function
+1622064701638	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1622064701657	Sync.ErrorHandler	ERROR	Sync encountered a login error
+JavaScript warning: https://www.programiz.com/sites/all/themes/programiz/lib/mautic/mautic-form.js, line 40: unreachable code after return statement
+JavaScript warning: https://www.programiz.com/sites/all/themes/programiz/lib/mautic/mautic-form.js, line 40: unreachable code after return statement
+1622078380915	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1622078380925	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1622094090404	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1622094090417	Sync.ErrorHandler	ERROR	Sync encountered a login error
+console.error: "Tried to send a 'target-destroyed-form' event on an already destroyed actor 'watcher'"
+1622141078833	Marionette	INFO	Stopped listening on port 58209
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+059282000/jQueryFiles/external/jquery.bgiframe-2.1.2.js, line 39: ReferenceError: jQuery is not defined
+1622061698574	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cgifederal.secure.force.com/resource/1536059282000/jQueryFiles/external/jquery.bgiframe-2.1.2.js, line 39: ReferenceError: jQuery is not defined
+1622061703172	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622061707938	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cgifederal.secure.force.com/resource/1536059282000/jQueryFiles/external/jquery.bgiframe-2.1.2.js, line 39: ReferenceError: jQuery is not defined
+1622061714351	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cgifederal.secure.force.com/resource/1536059282000/jQueryFiles/external/jquery.bgiframe-2.1.2.js, line 39: ReferenceError: jQuery is not defined
+1622061718646	Marionette	INFO	Stopped listening on port 62470
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622061729061	geckodriver	INFO	Listening on 127.0.0.1:62825
+1622061732110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofile65A0i5"
+1622061732670	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622061736161	Marionette	INFO	Listening on port 62845
+1622061736347	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622061756206	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622061758505	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622061762424	Marionette	INFO	Stopped listening on port 62845
+[Child 16856, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622061877301	geckodriver	INFO	Listening on 127.0.0.1:54363
+1622061880368	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileRonryi"
+1622061880944	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622061884318	Marionette	INFO	Listening on port 54381
+1622061884867	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/driver.js, line 2346: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+1622061885196	Marionette	INFO	Stopped listening on port 54381
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622061902046	geckodriver	INFO	Listening on 127.0.0.1:54478
+1622061905114	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileCDhiki"
+1622061905659	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622061908946	Marionette	INFO	Listening on port 54504
+1622061909353	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622062007995	Marionette	INFO	Stopped listening on port 54504
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofile9BmZgG"
+1622062005510	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622062009624	Marionette	INFO	Listening on port 54931
+1622062009698	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1622062029121	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622062032754	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622062691725	Marionette	INFO	Stopped listening on port 54931
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofilewhjuVB"
+1622062125823	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622062129771	Marionette	INFO	Listening on port 55440
+1622062130048	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622062148436	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622062150438	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622062692492	Marionette	INFO	Stopped listening on port 55440
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofile9QCO7b"
+1622062461699	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622062465603	Marionette	INFO	Listening on port 57629
+1622062465911	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622062488151	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622062563600	Marionette	INFO	Stopped listening on port 57629
+2062562983	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofile2YxON9"
+1622062563926	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622062567541	Marionette	INFO	Listening on port 50368
+1622062567803	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622062645778	Marionette	INFO	Stopped listening on port 50368
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileRAJmKB"
+1622062643104	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622062647341	Marionette	INFO	Listening on port 50696
+1622062647379	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622062667285	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622062669333	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622063052084	Marionette	INFO	Stopped listening on port 50696
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileXMKWwG"
+1622063051301	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622063055088	Marionette	INFO	Listening on port 56450
+1622063055541	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622063534901	Marionette	INFO	Stopped listening on port 56450
+2063079555	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileaog5fg"
+1622063080107	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622063083686	Marionette	INFO	Listening on port 56641
+1622063083766	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622063095934	Marionette	INFO	Stopped listening on port 56641
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622063451446	geckodriver	INFO	Listening on 127.0.0.1:55019
+1622063454526	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofilehcdxBo"
+1622063455102	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622063458755	Marionette	INFO	Listening on port 55047
+1622063458861	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622063536135	Marionette	INFO	Stopped listening on port 55041622063536316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileWLaktx"
+1622063537249	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622063540766	Marionette	INFO	Listening on port 55387
+1622063541198	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622063644830	Marionette	INFO	Stopped listening on port 55381622063645897	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofilexz1IbU"
+1622063646720	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622063650484	Marionette	INFO	Listening on port 51108
+1622063650729	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622063700257	Marionette	INFO	Stopped listening on port 51101622063701062	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileHKHu6V"
+1622063701644	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622063705063	Marionette	INFO	Listening on port 51414
+1622063705247	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622063728319	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622063729884	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622063734290	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622063797902	Marionette	INFO	Stopped listening on port 51411622063800326	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileFathry"
+1622063801011	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622063804389	Marionette	INFO	Listening on port 51804
+1622063804569	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622063826635	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622063829707	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622063830505	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622064853597	Marionette	INFO	Stopped listening on port 51804
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileo1HK6n"
+1622064817454	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622064821375	Marionette	INFO	Listening on port 62491
+1622064821702	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622064839252	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622064841437	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622065039016	Marionette	INFO	Stopped listening on port 62491
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622066396536	geckodriver	INFO	Listening on 127.0.0.1:60205
+1622066399696	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileJQgAy0"
+1622066400717	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622066405499	Marionette	INFO	Listening on port 60224
+1622066406058	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622066423575	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622066425672	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622066818920	Marionette	INFO	Stopped listening on port 60224
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofile5BRQdm"
+1622066764884	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622066768580	Marionette	INFO	Listening on port 53468
+1622066768716	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622066819861	Marionette	INFO	Stopped listening on port 53468
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileqAkfUc"
+1622066809681	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622066813399	Marionette	INFO	Listening on port 60551
+1622066813443	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622066830700	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622066832732	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622066910817	Marionette	INFO	Stopped listening on port 60551
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileyjxsAL"
+1622066906387	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622066910059	Marionette	INFO	Listening on port 60926
+1622066910159	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622066926336	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622066928454	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622068122796	Marionette	INFO	Stopped listening on port 60926
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileHaUCbw"
+1622067459093	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622067462438	Marionette	INFO	Listening on port 51946
+1622067462702	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622067487492	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622067489510	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622068682117	Marionette	INFO	Stopped listening on port 51946
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622068691710	geckodriver	INFO	Listening on 127.0.0.1:53067
+1622068694764	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileJG1HHD"
+1622068695332	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622068698784	Marionette	INFO	Listening on port 53096
+1622068699005	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622068722689	Marionette	INFO	Stopped listening on port 53096
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622068772539	geckodriver	INFO	Listening on 127.0.0.1:53426
+1622068775567	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileXmcj46"
+1622068776121	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622068779617	Marionette	INFO	Listening on port 53437
+1622068779777	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622068796327	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622068798462	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622069550022	Marionette	INFO	Stopped listening on port 53437
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileoarQSF"
+1622068887952	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622068891436	Marionette	INFO	Listening on port 53494
+1622068891574	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622068907960	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622068910105	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622069551002	Marionette	INFO	Stopped listening on port 53494
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileTN6ac4"
+1622069026813	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622069030195	Marionette	INFO	Listening on port 56131
+1622069030417	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622069047367	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622069049462	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622069551748	Marionette	INFO	Stopped listening on port 56131
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofilenRyH7d"
+1622069232151	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622069235414	Marionette	INFO	Listening on port 58697
+1622069235838	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622069252679	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622069254699	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622069552795	Marionette	INFO	Stopped listening on port 58697
+2069459425	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofile0PLPo1"
+1622069459993	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622069463625	Marionette	INFO	Listening on port 61742
+1622069463732	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622069481112	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622069483177	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622069554336	Marionette	INFO	Stopped listening on port 61742
+2069550357	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofile52C3Ch"
+1622069551466	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622069555884	Marionette	INFO	Listening on port 62103
+1622069556293	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622069573039	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622069575045	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622069941613	Marionette	INFO	Stopped listening on port 62103
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileIS233N"
+1622069742961	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622069746148	Marionette	INFO	Listening on port 51534
+1622069746510	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622069763164	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622069765263	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622069942377	Marionette	INFO	Stopped listening on port 51534
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileZVXvkq"
+1622069934197	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622069937641	Marionette	INFO	Listening on port 54032
+1622069937858	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622069955397	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622069957408	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622085626317	Marionette	INFO	Stopped listening on port 54032
+1622085679054	geckodriver	INFO	Listening on 127.0.0.1:57289
+1622085682196	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileTTEYdq"
+1622085682871	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622085686216	Marionette	INFO	Listening on port 57298
+1622085686481	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622085713011	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622085715287	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622088608852	Marionette	INFO	Stopped listening on port 57298
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofileTHIrQt"
+1622088604508	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622088608244	Marionette	INFO	Listening on port 54948
+1622088608772	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622088625988	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622088628204	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1622136413109	Marionette	INFO	Stopped listening on port 54948
+1641348551665	geckodriver	INFO	Listening on 127.0.0.1:51378
+1641348554794	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofilegouabs"
+1641348556156	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ksrik\\AppData\\Local\\Temp\\rust_mozprofilegouabs\\search.json.mozlz4", (void 0)))
+1641348564349	Marionette	INFO	Listening on port 51388
+1641348564572	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641348570562	Marionette	INFO	Stopped listening on port 51388
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 7408, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+>>>>>>> 90cff44df708b9d6eff391e4d62575a7ea8aaa0c
