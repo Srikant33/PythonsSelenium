@@ -1,5 +1,6 @@
 import pywhatkit
 from datetime import datetime
+import winsound
 
 def message(text):
     try:
@@ -9,7 +10,7 @@ def message(text):
         while (1): 
             winsound.PlaySound("Welcome.wav",winsound.SND_FILENAME)
         now = datetime.now()
-        pywhatkit.sendwhatmsg('+13522832038',text,int(now.strftime("%H")),int(now.strftime("%M"))+1)
+        # pywhatkit.sendwhatmsg('+13522832038',text,int(now.strftime("%H")),int(now.strftime("%M"))+1)
         
     finally:
         now = datetime.now()

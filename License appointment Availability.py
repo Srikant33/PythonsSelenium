@@ -3,14 +3,10 @@ from selenium.webdriver.common.keys import Keys
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
-# from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import whatsapp
 from datetime import datetime
-
-# s=Service(ChromeDriverManager().install())
-# driver = webdriver.Chrome(service=s)
 
 driver = webdriver.Chrome(
     executable_path=r'E:\Desktop\code\Gecko exe\chromedriver.exe'
@@ -18,14 +14,9 @@ driver = webdriver.Chrome(
 
 driver.maximize_window()
 driver.get('https://book.appointment-plus.com/6kznhmqx#/?_qk=g5p8216lsp8')
+# this is for gainesville DL , goto booking and remote driving test to check for dates 
+
 time.sleep(10)
-# search = driver.find_element_by_id("username")
-# search.send_keys("<username>")
-# search = driver.find_element_by_id("password")
-# search.send_keys("<password>")
-
-# time.sleep(20)
-
 
 def my_function(c):
     if "1/19" in driver.page_source:
@@ -52,7 +43,7 @@ while 1:
         driver.refresh()
 
     finally:
-        time.sleep(30)
+        time.sleep(5)
         driver.refresh()
         time.sleep(5)
 
