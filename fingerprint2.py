@@ -1,3 +1,4 @@
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
@@ -7,24 +8,24 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import whatsapp
+#import whatsapp
 import twilio_call
-import unittest
+#import unittest
 from datetime import datetime
-from dotenv import load_dotenv 
+#from dotenv import load_dotenv 
 from selenium.webdriver.chrome.options import Options
-
-options = Options()
-options.add_argument('--headless')
-options.add_argument('--disable-gpu')  # Last I checked this was necessary.
+from pyvirtualdisplay import Display
 
 
-load_dotenv('.env')
-driver = webdriver.Chrome(
-    executable_path=r'E:\Desktop\code\Gecko exe\chromedriver.exe', chrome_options=options
-    )
+
+#options = Options()
+#options.add_argument('--headless')
+#options.add_argument('--disable-gpu')  # Last I checked this was necessary.
+
+
+#load_dotenv('.env')
+driver = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver')
 twilio_call.message()
-
 
 driver.maximize_window()
 time.sleep(4)
@@ -47,7 +48,7 @@ now = datetime.now()
 global today
 today="aa"
 
-def my_function(c,today):
+def my_function(c):
     now = datetime.now()
     if "javascript:dosubmit('20220204', 'viewappts', 'no','Child', 1)" in driver.page_source:
         print("success on 4th") 
@@ -81,7 +82,7 @@ def my_function(c,today):
                 print(today)
                 c=0
         c=c+1
-        return c, today
+        return c
 
 
 x=0
@@ -89,10 +90,10 @@ print("started")
 while 1:
     time.sleep(20)
     try:
-        x, today=my_function(x,today)
+        x=my_function(x)
         driver.refresh()
     except:
-        twilio_call.message()
+        twilio_call().message()
 
     finally:
         time.sleep(3*60)
